@@ -21,7 +21,7 @@ install -v -m 644 changelog $destdir/share/doc/libpasastro/changelog
 install -v -m 644 copyright $destdir/share/doc/libpasastro/copyright
 
 cd $destdir/lib
-ln -s libpasgetdss.so.1.1 libpasgetdss.so.1
-ln -s libpasplan404.so.1.1 libpasplan404.so.1
-ln -s libpaswcs.so.1.1 libpaswcs.so.1
+ln -sf libpasgetdss.so.1.1 libpasgetdss.so.1
+ln -sf libpasplan404.so.1.1 libpasplan404.so.1
+ln -sf libpaswcs.so.1.1 libpaswcs.so.1
 
